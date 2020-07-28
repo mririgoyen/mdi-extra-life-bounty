@@ -1,9 +1,13 @@
 import React from 'react';
 import Particles from 'react-particles-js';
 
+import mdiBottleTonicPlus from '../node_modules/@mdi/svg/svg/bottle-tonic-plus.svg';
+import mdiBottleTonicPlusOutline from '../node_modules/@mdi/svg/svg/bottle-tonic-plus-outline.svg';
 import mdiCharity from '../node_modules/@mdi/svg/svg/charity.svg';
 import mdiControllerClassic from '../node_modules/@mdi/svg/svg/controller-classic.svg';
 import mdiControllerClassicOutline from '../node_modules/@mdi/svg/svg/controller-classic-outline.svg';
+import mdiDiceThree from  '../node_modules/@mdi/svg/svg/dice-3.svg';
+import mdiDiceSix from  '../node_modules/@mdi/svg/svg/dice-6.svg';
 import mdiDiceMultiple from '../node_modules/@mdi/svg/svg/dice-multiple.svg';
 import mdiDiceMultipleOutline from '../node_modules/@mdi/svg/svg/dice-multiple-outline.svg';
 import mdiGamepadSquare from '../node_modules/@mdi/svg/svg/gamepad-square.svg';
@@ -40,7 +44,7 @@ function Background() {
             out_mode: 'out'
 	        },
           number: {
-            value: 20,
+            value: 15,
             density: {
               enable: true,
               value_area: 200
@@ -49,9 +53,13 @@ function Background() {
           shape: {
             type: 'images',
             image: [
+              { src: mdiBottleTonicPlus, height: 20, width: 20 },
+              { src: mdiBottleTonicPlusOutline, height: 20, width: 20 },
               { src: mdiCharity, height: 20, width: 20 },
               { src: mdiControllerClassic, height: 20, width: 20 },
               { src: mdiControllerClassicOutline, height: 20, width: 20 },
+              { src: mdiDiceThree, height: 20, width: 20 },
+              { src: mdiDiceSix, height: 20, width: 20 },
               { src: mdiDiceMultiple, height: 20, width: 20 },
               { src: mdiDiceMultipleOutline, height: 20, width: 20 },
               { src: mdiGamepadSquare, height: 20, width: 20 },
